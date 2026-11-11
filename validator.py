@@ -37,3 +37,7 @@ def validate_snils(snils: str) -> bool:
         expected = calculated % 101
     
     return expected == check_sum
+
+
+def validate_phone(phone: str) -> bool:
+    return True
